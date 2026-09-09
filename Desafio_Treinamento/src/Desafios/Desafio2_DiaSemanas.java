@@ -17,7 +17,7 @@ public class Desafio2_DiaSemanas {
 		int nDia = 0;
 		
 		try {
-			// Converter a String recebida em número inteiro
+			// Converter a String receipt em número inteiro
 			nDia = Integer.parseInt(vDia);
 		} catch (NumberFormatException e) {
 			return "Entrada Inválida! Digite apenas números de 1 até 7";
