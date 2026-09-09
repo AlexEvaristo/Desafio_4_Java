@@ -28,11 +28,11 @@ public class Desafios3_Nota_0_10 {
 					System.out.println("Erro: A nota deve estar entre 0 e 10!");
 				}
 			} catch (NumberFormatException e) {
-				
+
 				// Cai aqui se o usuário digitar letras, símbolos ou deixar vazio
 				System.out.println("Erro: Entrada Inválida! Digite apenas  números.");
 			}
-
+			scanner.close();
 		}
 
 		return nota;
@@ -43,6 +43,7 @@ public class Desafios3_Nota_0_10 {
 
 		int notaFinal = pedirNota();
 		System.out.println("Nota informada com sucesso: " + notaFinal);
+
 	}
 
 }
